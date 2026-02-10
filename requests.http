@@ -1,0 +1,29 @@
+### GET
+GET http://localhost:8080/api/relogios?pagina=1&porPagina=12
+
+###
+GET http://localhost:8080/api/relogios?busca=seiko
+
+###
+GET http://localhost:8080/api/relogios?tipoMovimento=automatic&tipoVidro=mineral
+
+###
+GET http://localhost:8080/api/relogios?resistenciaMin=100&resistenciaMax=250
+
+###
+GET http://localhost:8080/api/relogios?precoMin=50000&precoMax=200000
+
+###
+GET http://localhost:8080/api/relogios?diametroMin=38&diametroMax=42
+
+###
+GET http://localhost:8080/api/relogios?ordenar=price_desc
+
+###
+GET http://localhost:8080/api/relogios?ordenar=wr_desc
+
+###
+GET http://localhost:8080/api/relogios/b7c1a1a6-3b59-4d09-8a5a-9b2ed13d72d9
+
+###
+DELETE http://localhost:8080/api/relogios/b7c1a1a6-3b59-4d09-8a5a-9b2ed13d72d9
